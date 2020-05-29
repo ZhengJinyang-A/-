@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtbx_InitialData.Text" xml:space="preserve">
+    <value>0	602.3
+40	601.5
+80	600.55
+100	600.19
+190	598.5
+260	596.59
+290	595.67
+310	595.11
+330	594.48
+350	593.89
+370	593.27
+390	592.77
+410	592.33
+440	591.94
+460	591.62
+480	591.34
+500	591.02
+520	590.74
+540	590.47
+560	590.21
+580	589.92
+600	589.66
+620	589.36
+640	589.08
+690	588.52
+710	588.26
+730	588.07
+750	587.9
+770	587.7
+790	587.57
+810	587.33
+830	587.16
+850	586.99
+870	586.87
+890	586.56
+960	586.03
+970	585.58
+990	585.26
+1010	585
+1030	584.66
+1050	584.34
+1070	583.98
+1090	583.64
+1110	583.34
+1130	583.04
+1150	582.85
+1170	582.59
+1190	583.36
+1210	582.19
+1230	582.03
+1250	581.87
+1270	581.81
+1290	581.86
+1310	581.59
+1330	581.52
+1350	581.48
+1370	581.43
+1390	581.45
+1410	581.49
+1430	581.56
+1450	581.55
+1470	581.64
+1490	581.82
+1510	581.91
+1530	582.03
+1550	582.2
+1570	582.31
+1590	582.42
+1610	582.51
+1630	582.55
+1650	582.56
+1670	582.53
+1690	582.49
+1710	582.48
+1730	582.44
+1750	582.46
+1770	582.42
+1790	582.37
+1810	582.36
+1830	582.37
+1850	582.31
+1870	582.36
+1890	582.34
+1910	582.29
+1930	582.31
+1950	582.23
+1970	582.21
+1990	582.2
+2010	582.26
+2040	582.51
+2060	582.74
+2080	582.93
+2100	583.21
+2120	583.52
+2140	583.8
+2160	584.08
+2180	584.39
+2220	584.95
+2240	585.19
+2260	585.51
+2280	585.75
+2300	586.03
+2320	586.35
+2340	586.64
+2370	587.04
+2390	587.24
+2410	587.55
+2430	587.08
+2470	587.99
+2490	588.13
+2510	588.23
+2530	588.36
+2550	588.46
+2570	588.59
+2590	588.74
+2610	588.82
+2630	589.02
+2650	589.29
+2670	589.65
+2690	589.94
+2720	590.59
+2740	591.08
+2760	591.49
+2780	591.9
+2800	592.34
+2830	592.72
+2850	593.22
+2870	593.61
+2890	594.01
+2910	594.44
+2930	594.88
+2950	595.29
+2990	596.38
+3020	596.85
+3040	597.39
+3090	598.38
+3120	598.69
+3140	598.94
+3160	599.09
+3190	599.14
+3210	599.06
+3230	598.96
+3260	598.87
+3280	598.74
+3300	598.67
+3330	598.56
+3380	598.31
+3410	598.2
+3430	598.14
+3450	598.06
+3470	598
+3490	597.88
+3510	597.78
+3540	597.68
+3570	597.55
+3590	597.47
+3610	597.38
+3660	597.17
+3680	597.09
+3700	596.99
+3730	596.92
+3750	596.8
+3770	596.66
+3800	596.56
+3830	596.43
+3850	596.33
+3880	596.24
+3900	596.15
+3920	596.06
+3950	595.92
+3970	595.77
+3990	595.72
+4020	595.63
+4060	598.44
+4090	595.65
+4110	595.83
+4140	596.15
+4160	596.41
+4180	596.84
+4210	597.21
+4230	597.53
+4250	597.87
+4270	598.25
+4300	598.55
+4320	598.9
+4350	599.3
+4370	599.64
+4400	600.06
+4420	600.37
+4450	600.8
+4470	601.15
+4490	601.47
+4510	601.78
+4540	602.12
+4560	602.47
+4580	602.84
+4610	603.25
+4640	603.65
+4660	604.04
+4680	604.4
+4710	604.73
+4730	605.01
+4760	605.29
+4780	605.46
+4800	605.51
+4820	605.61
+4840	605.84
+4870	605.83
+4890	605.93
+4940	606.08
+4970	606.24
+4990	606.37
+5020	606.52
+5040	606.66
+5070	606.86
+5100	607.15
+5120	607.46
+5140	607.74
+5160	608.02
+5190	608.41
+5220	608.71
+5240	609.05
+5260	609.39
+5290	609.69
+5310	610.04
+5340	610.29
+5360	610.58
+5380	610.91
+5410	611.28
+5430	611.53
+5460	611.84
+5480	612.05
+5510	612.27
+5530	612.52
+5560	612.8
+5590	613.22
+5620	613.42
+5640	613.6
+5660	613.84
+5710	614.3
+5730	614.58
+5750	614.76
+5770	614.97
+5790	615.19
+5820	615.46
+5840	615.66
+5860	615.81
+5880	616.08
+5910	616.41
+5930	616.67
+5960	616.87
+5980	617.14
+6010	617.42
+6040	617.886
+6050.095	617.879
+6060	617.421
+6080	616.496
+6100	615.731
+6120	615.068
+6140	614.214
+6160	613.255
+6180	612.49
+6200	611.614
+6220	610.762
+6240	609.856
+6260	608.67
+6280	608.063
+6300	607.113
+6320	606.062
+6340	605.263
+6360	603.938
+6380	603.421
+6400	601.947
+6420	601.957
+6440	599.98
+6460	599.175
+6480	598.002
+6500	596.803
+6520	595.937
+6540	595.231
+6560	593.921
+6580	593.069
+6600	592.025
+6620	591.069
+6640	590.01
+6660	589.078
+6680	588.122
+6700	587.57
+6720	586.333
+6740	585.052
+6760	584.055
+6780	583.114
+6800	582.003
+6820	580.967
+6840	580.078
+6860	579.27
+6880	578.205
+6900	576.985
+6920	576.114
+6940	575.353
+6960	574.853
+6980	574.32
+7000	574
+7020	572.957
+7040	572.414
+7060	572.079
+7080	571.46
+7100	570.868
+7120	570.33
+7140	569.826
+7160	569.45
+7180	569.298
+7200	568.807
+7220	568.472
+7240	568.121
+7260	567.804
+7280	567.459
+7300	567.05
+7320	566.932
+7340	566.371
+7360	566.054
+7380	565.848
+7400	565.49
+7420	565.258
+7440	564.857
+7460	564.587
+7480	564.055
+7500	563.703
+7520	563.526
+7540	563.281
+7560	563.092
+7580	562.653
+7600	562.326
+7620	561.991
+7640	561.666
+7660	561.513
+7678.41	561.521
+7680	561.52
+7700	561.321
+7720	561.278
+7740	561.157
+7760	561.348
+7780	561.109
+7800	561.049
+7820	560.809
+7840	560.74
+7860	560.825
+7880	560.783
+7900	560.498
+7920	560.535
+7940	560.577
+7960	560.245
+7980	559.922
+8000	559.873
+8020	560.112
+8040	560.076
+8060	560.023
+8080	559.92
+8100	559.939
+8120	559.887
+8140	559.817
+8160	559.803
+8180	559.812
+8200	559.837
+8220	559.907
+8240	560.023
+8260	560.221
+8280	560.349
+8300	560.427
+8320	560.59
+8340	560.813
+8360	560.725
+8380	560.7
+8400	560.9
+8420	560.946
+8440	560.984
+8460	561.136
+8480	561.309
+8500	561.271
+8520	560.793
+8540	561.572
+8560	562.352
+8580	562.823
+8600	562.926
+8620	563.165
+8640	563.454
+8660	563.487
+8680	563.5
+8700	563.649
+8720	563.808
+8740	564.038
+8760	564.05
+8780	564.123
+8800	564.317
+8820	564.579
+8840	564.798
+8860	564.678
+8880	564.469
+8900	564.336
+8920	564
+8940	564.766
+8960	565.974
+8980	565.999
+9000	566.153
+9020	566.127
+9040	566.121
+9060	566.076
+9080	566.065
+9100	566.064
+9120	566.054
+9140	566.017
+9160	566.031
+9180	565.626
+9200	566
+9220	566
+9240	566.387
+9260	567.636
+9280	567.688
+9300	567.884
+9320	567.886
+9340	567.983
+9360	568
+9380	568
+9400	568
+9420	568
+9440	568.03
+9460	568.056
+9480	568.1
+9500	568.145
+9520	568.168
+9540	567.998
+9560	567.878
+9580	567.87
+9600	567.306
+9620	566.285
+9640	565.568
+9660	565
+9680	564.652
+9700	564.092
+9720	563.714
+9740	563.397
+9760	563.077
+9780	562.876
+9800	562.884
+9820	562.897
+9840	561.847
+9860	561.061
+9880	559.821
+9900	559.414
+9920	559.1
+9940	558.62
+9960	557.963
+9980	557.157
+10000	557.319
+10020	556.394
+10040	556.032
+10060	555.745
+10080	555.279
+10100	554.452
+10120	554.178
+10140	553.991
+10160	553.759
+10180	553.526
+10200	552.819
+10220	552.473
+10240	551.972
+10260	551.746
+10280	551.279
+10300	551.037
+10320	550.643
+10340	550.339
+10360	550.04
+10380	551.192
+10400	550.479
+10420	548.98
+10440	548.597
+10460	548.256
+10480	548.067
+10500	547.978
+10520	547.813
+10540	547.558
+10560	546.797
+10580	546.508
+10600	545.952
+10620	545.958
+10640	545.942
+10660	545.99
+10680	545.717
+10700	545.252
+10720	545.824
+10740	545.339
+10760	545.211
+10765	545.185</value>
+  </data>
+</root>
